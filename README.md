@@ -3,7 +3,7 @@ A 3D printable chassis for a 2 wheel drive Raspberry Pi controlled car designed 
 
 # OnShape Model
 
-You can find the full model in OnShape: [PiCarChassis0](https://cad.onshape.com/documents/490e9cfab3fa483e822dd737/w/7fd3065ada215895b14d5718/e/7eae7962dcd676a447bd99f1?renderMode=0&uiState=681ab3e0ec1f1d17266222ec)
+You can find the full model in OnShape: [https://cad.onshape.com/documents/490e9cfab3fa483e822dd737/w/7fd3065ada215895b14d5718/e/7eae7962dcd676a447bd99f1?renderMode=0&uiState=681ab3e0ec1f1d17266222ec](https://cad.onshape.com/documents/490e9cfab3fa483e822dd737/w/7fd3065ada215895b14d5718/e/7eae7962dcd676a447bd99f1?renderMode=0&uiState=681ab3e0ec1f1d17266222ec) (once the link is pressed you may need to refresh)
 
 ## Motivation
 After taking ESE 205, _Introduction to Engineering Design_ course at Washington University in St. Louis, and then becoming an _Assistant Instructor_ for the course and needing to repair the commetial alternative. The brand will not be stated but the vehicles were extremely time consuming to to construct and more importantly to maintain in a class setting. The servos were continously getting stripped and needing continous replacement. The was due to the weight of the items being supported, the nature of first year students, and the design being made of laser cut polycarbonate. This meant that the full car is held together with a lot of screws and hardware than what is trully necessary. 
@@ -14,3 +14,6 @@ The goal was to design a simple and complete design for use in an introductory l
 ## Overall Model
 
 ![PiCar Moddel](https://github.com/user-attachments/assets/ddfa6e94-6176-41c8-adce-63950f62f545)
+
+
+For a link you can do 
