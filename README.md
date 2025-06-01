@@ -3,7 +3,9 @@ A 3D printable chassis for a 2 wheel drive Raspberry Pi controlled car designed 
 
 ## OnShape Model
 
-You can find the full model in OnShape: [PiCarChassis1](https://cad.onshape.com/documents/7e4770bd0883ef791fccfce2/w/b0bda0ce8d7720ebb6f6aa24/e/0d48a400d6beaccd7df07606?renderMode=0&uiState=681bd0953f563009a6b3afbd) (once the link is pressed you may need to refresh)
+First Model can be found at: [PiCarChassis1](https://cad.onshape.com/documents/7e4770bd0883ef791fccfce2/w/b0bda0ce8d7720ebb6f6aa24/e/0d48a400d6beaccd7df07606?renderMode=0&uiState=681bd0953f563009a6b3afbd) 
+Slightly Revised Model can be found at: [PiCarChassis2](https://cad.onshape.com/documents/606afa32c4ddef82647d70d7/w/6173d1c845c871eaac10e766/e/4a1e5e404db76d444ffd6e8d?renderMode=0&uiState=683caa3380ccf723f2ae1f88)
+
 
 ## 3D printing
 
