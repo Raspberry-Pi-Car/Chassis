@@ -1,19 +1,24 @@
 # PiCar Chassis
-A 3D printable chassis for a 2 wheel drive Raspberry Pi controlled car designed for personal and academic use.
+A 3D printable chassis for a 2-wheel drive Raspberry Pi controlled car designed for personal and academic use.
 
 ## OnShape Model
 
-First Model can be found at: [PiCarChassis1](https://cad.onshape.com/documents/7e4770bd0883ef791fccfce2/w/b0bda0ce8d7720ebb6f6aa24/e/0d48a400d6beaccd7df07606?renderMode=0&uiState=681bd0953f563009a6b3afbd) 
-Slightly Revised Model can be found at: [PiCarChassis2](https://cad.onshape.com/documents/606afa32c4ddef82647d70d7/w/6173d1c845c871eaac10e766/e/4a1e5e404db76d444ffd6e8d?renderMode=0&uiState=683caa3380ccf723f2ae1f88)
+A revised model (01/06/2025) can be found at: [PiCarChassis2](https://cad.onshape.com/documents/606afa32c4ddef82647d70d7/w/6173d1c845c871eaac10e766/e/4a1e5e404db76d444ffd6e8d?renderMode=0&uiState=683caa3380ccf723f2ae1f88)
 
 
 ## 3D printing
 
-For those who do not want to customize their car in any way, the STL files are available in **V1-STLs**. These STL files have no fun names embedded in the print and are designed to be as simple as possible. Please note, the parts title ***Print2*** will need two of these item printed to be able to completely assemble the car. These parts are the _Front Shaft Spacer_, _Front Shaft_, _N20 Sleeve_, and _Rear Spacer_. All other items in the print only need a single copy per car. Happy printing!!
+For those who do not want to customize their car in any way, the STL files are available in **V1-STLs**. These STL files have no fun names embedded in the print and are designed to be as simple as possible. Please note, the parts title ***Print2*** will need two of these item printed to be able to completely assemble the car. These parts are the _Front Shaft Spacer_, _Front Shaft_, _N20 Sleeve_, and _Rear Spacer_. All other items in the print only need a single copy per car. 
+
+For **V2-STLs**, the number at the end, ie. the `#` in `NAME-#.stl`, is the number of parts that need to be printed.
+
+Happy printing!!
 
 ### Custom text printing
 
-Tutorial on how to customize the text and add your own text coming soon.
+The text on the car can be edited by opening the _Chassis_ tab and scrolling down to the folder _TEXT (2)_ and editing the two sketches that are inside (`TEXT TOP` & `TEXT BOTTOM`). Once in the sketch, right-click on the text itself and you can modify the name and number. You can remove the text by right-clicking on the extrusions (`Extrude Text Top` & `Extrude Text Bottom`) and selecting _suppress_.
+
+Video tutorial will be added soon<sup>TM</sup>.
 
 ## Required Hardware
 
@@ -24,7 +29,7 @@ Below is a list of hardware that is used to assemble the design and links to get
 | N20 Motors (6V 300 to 400 RPM) | 2 | [AliExpress](https://www.aliexpress.us/item/2251832822008333.html?spm=a2g0o.order_list.order_list_main.35.55511802F0cztx&gatewayAdapt=glo2usa) | [Alibaba](https://www.alibaba.com/product-detail/Bringsmart-JGA12-N20B-All-Metal-Gears_1600893524712.html?spm=a2700.galleryofferlist.normal_offer.d_title.78d813a0OGqrv8) | [Amazon](https://a.co/d/13G6bXz) |
 | MF148ZZ Bearing (8x14x4mm) | 10 | [AliExpress](https://www.aliexpress.us/item/3256805156166045.html?spm=a2g0o.order_list.order_list_main.29.55511802F0cztx&gatewayAdapt=glo2usa)  | [Alibaba](https://www.alibaba.com/product-detail/MF148-ZZ-MF148ZZ-MF148-2Z-Mini_1601282596612.html?spm=a2700.galleryofferlist.normal_offer.d_title.764513a0qrBIF2) | [McMaster-Carr](https://www.mcmaster.com/7804K146/) |
 | 12mm Hex to 8mm Wheel Coupling | 4 | [AliExpress](https://www.aliexpress.us/item/3256806226849189.html?spm=a2g0o.order_list.order_list_main.23.55511802F0cztx&gatewayAdapt=glo2usa) | [Alibaba](https://www.alibaba.com/product-detail/Hexagon-Coupling-12mm-Tire-Connector-Coupling_1601266273126.html?spm=a2700.galleryofferlist.normal_offer.d_title.3f5a13a0jycNtH) | [Amazon](https://a.co/d/eVg6nnu)
-| PiCamera (Any version) | 1 | 
+| PiCamera (v1 fit tested, v2 untested) | 1 | 
 | Ultrasonic Sensor | 1 | 
 
 The screws and other hardware can be bought as individual kits from Amazon/AliExpress/Alibaba or as individual parts at McMaster-Carr or you local hardware store. 
@@ -34,13 +39,13 @@ The screws and other hardware can be bought as individual kits from Amazon/AliEx
 | M1.6 x 8mm Machine Screws | Pan head or Countersunk | 8 | Camera and Ultrasonic Sensor | Working to remove this requirement |
 | M2 x 10/12mm Machine Screws | Pan head or Countersunk | 7 | Servos and Head Stabilization
 | M2 Nuts | | 7 | With M2 Screws |
-| M3 x 8mm Machine Screws | Pan head or Countersunk | 10 | Chassis and Head |
+| M3 x 8mm Machine Screws | Pan head or Countersunk | 8 | Chassis and Head |
 | M3 x 8mm Machine Screws | Countersunk | 2 | Battery Holder | 
 | M3 Nuts | | 2 | Battery Holder |
-| M3 Heat Insert | One Sided | 10 | Chassis and Head |
+| M3 Heat Insert | One Sided | 8 | Chassis and Head |
 | M4 x 8mm Machine Screw | Pan Head | 4 | Wheel Coupling |
 | | | | |
-| M1.7 Self-tapping Screws | Comes with servos | 3 | For Servo Arms | 
+| M1.7 Self-tapping Screws | Comes with servos | 4-5 | For Servo Arms | 
 
 
 ## How to assemble
