@@ -26,9 +26,9 @@ Below is a list of hardware that is used to assemble the design and links to get
 
 | Part and Model | Quantity | Purchase Link 1 | Purchase Link 2 | Purchase Link 3 |
 | -------- | -------- | -------- | -------- | -------- |
-| N20 Motors (6V 300 to 400 RPM) | 2 | [AliExpress](https://www.aliexpress.us/item/2251832822008333.html?spm=a2g0o.order_list.order_list_main.35.55511802F0cztx&gatewayAdapt=glo2usa) | [Alibaba](https://www.alibaba.com/product-detail/Bringsmart-JGA12-N20B-All-Metal-Gears_1600893524712.html?spm=a2700.galleryofferlist.normal_offer.d_title.78d813a0OGqrv8) | [Amazon](https://a.co/d/13G6bXz) |
-| MF148ZZ Bearing (8x14x4mm) | 10 | [AliExpress](https://www.aliexpress.us/item/3256805156166045.html?spm=a2g0o.order_list.order_list_main.29.55511802F0cztx&gatewayAdapt=glo2usa)  | [Alibaba](https://www.alibaba.com/product-detail/MF148-ZZ-MF148ZZ-MF148-2Z-Mini_1601282596612.html?spm=a2700.galleryofferlist.normal_offer.d_title.764513a0qrBIF2) | [McMaster-Carr](https://www.mcmaster.com/7804K146/) |
-| 12mm Hex to 8mm Wheel Coupling | 4 | [AliExpress](https://www.aliexpress.us/item/3256806226849189.html?spm=a2g0o.order_list.order_list_main.23.55511802F0cztx&gatewayAdapt=glo2usa) | [Alibaba](https://www.alibaba.com/product-detail/Hexagon-Coupling-12mm-Tire-Connector-Coupling_1601266273126.html?spm=a2700.galleryofferlist.normal_offer.d_title.3f5a13a0jycNtH) | [Amazon](https://a.co/d/eVg6nnu)
+| N20 Motors (6V 300 to 400 RPM recommended) | 2 | [AliExpress](https://www.aliexpress.us) | [Alibaba](https://www.alibaba.com) | [Amazon](https://a.co/d/13G6bXz) |
+| MF148ZZ Bearing (8x14x4mm) | 10 | [AliExpress](https://www.aliexpress.us)  | [Alibaba](https://www.alibaba.com) |
+| 12mm Hex to 8mm Wheel Coupling | 4 | [AliExpress](https://www.aliexpress.us) | [Alibaba](https://www.alibaba.com)
 | PiCamera (v1 fit tested, v2 untested) | 1 | 
 | Ultrasonic Sensor | 1 | 
 
@@ -36,13 +36,13 @@ The screws and other hardware can be bought as individual kits from Amazon/AliEx
 
 | Hardware Size | Type | Quantity | Purpose | Note |
 | -------- | -------- | -------- | -------- | --------|
-| M1.6 x 8mm Machine Screws | Pan head or Countersunk | 8 | Camera and Ultrasonic Sensor | Working to remove this requirement |
-| M2 x 10/12mm Machine Screws | Pan head or Countersunk | 7 | Servos and Head Stabilization
-| M2 Nuts | | 7 | With M2 Screws |
-| M3 x 8mm Machine Screws | Pan head or Countersunk | 8 | Chassis and Head |
-| M3 x 8mm Machine Screws | Countersunk | 2 | Battery Holder | 
-| M3 Nuts | | 2 | Battery Holder |
-| M3 Heat Insert | One Sided | 8 | Chassis and Head |
+| M1.6 x 8mm Machine Screws (Can be plastic) | Pan head or Countersunk | 8 | Camera and Ultrasonic Sensor | Working to remove this requirement |
+| M2 x 10/12mm Machine Screws | Pan head or Countersunk | 6 | Servos mounting |
+| M2 Nuts | | 6 | With M2 Screws |
+| M3 x 10mm Machine Screws | Pan head or Countersunk | 9 | Chassis and Head Stabilization |
+| M3 x 8 or 10mm Machine Screws | Countersunk | 2 | Battery Holder | 
+| M3 Nuts | | 3 | Battery Holder and Head Stabilization |
+| M3 Heat Insert | One Sided | 8 | Chassis |
 | M4 x 8mm Machine Screw | Pan Head | 4 | Wheel Coupling |
 | | | | |
 | M1.7 Self-tapping Screws | Comes with servos | 4-5 | For Servo Arms | 
@@ -50,12 +50,14 @@ The screws and other hardware can be bought as individual kits from Amazon/AliEx
 
 ## How to assemble
 
-Assembly tutorial coming soon.
+Assembly tutorial Coming Soon<sup>TM</sup>.
 
 
 ## Purpose 
 ### Motivation
-After taking ESE 205, _Introduction to Engineering Design_ course at Washington University in St. Louis, and then becoming an _Assistant Instructor_ for the course and needing to repair the commercial alternative. The brand will not be stated, but the vehicles were extremely time-consuming to construct and more importantly to maintain in a class setting. The servos were continuously getting stripped and needing continuous replacement. The was due to the weight of the items being supported, the nature of first year students, and the design being made of laser cut polycarbonate. This meant that the full car is held together with a lot of screws and hardware than what is truly necessary. 
+After taking ESE 205, _Introduction to Engineering Design_ course at Washington University in St. Louis, and later becoming an _Assistant Instructor_ for the course, I needed to repair the commercial alternative. The brand will not be stated, but the vehicles were extremely time-consuming to construct and more importantly to maintain in a class setting. The servos were continuously getting stripped and needing continuous replacement. The was due to the weight of the items being supported, the nature of first year students, and the design being made of laser cut polycarbonate. This meant that the full car is held together with a lot of screws and hardware Which can be avoided if 3D printing is used. 
+
+Since the big boom of 3D printing, 3D printing is more available than ever, it made sense to try and remake the cars using 3D printing, allowing for easier maintenance, since if a part broke, it could easily be reprinted. If the requirements for the class change, the model can be updated and reprinted for ~$5. The goal was to use less hardware as well, dropping the screw requirement from approximately 50 down to approximately 20 and removing the need for M3 standoffs to connect two laser cut panels together.  
 
 ### Goal
 The goal was to design a simple and complete design for use in an introductory level hardware interfacing class. The goal of the class was to use onboard sensors to complete specified tasks as set by the instructor of the course. The chassis was to be design to be easy to assemble, easy to print, and, most importantly, easy to maintain. The aim was to make the servos easily replaceable while stabilizing the head and removing steering slop, which were both problems on the original design. 
@@ -66,4 +68,4 @@ The goal was to design a simple and complete design for use in an introductory l
 
 ### Current Model
 
-The current model has only been tested with PLA and works great, once the model goes public, it can be clones and custom text emedded in the print to allow for cutoming naming, or for a class, numbering. 
+The current model is made with OnShape, the goal is to soon release another model that uses Fusion360 to allow for more choices for individuals looking to customizing their own car. 
